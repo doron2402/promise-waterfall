@@ -1,6 +1,6 @@
 {
   "name": "promise-waterfall-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small and simple function to use promises in waterfall",
   "main": "index.js",
   "scripts": {
