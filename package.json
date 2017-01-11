@@ -1,0 +1,38 @@
+{
+  "name": "promise-waterfall-native",
+  "version": "1.0.0",
+  "description": "Small and simple function to use promises in waterfall",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab --colors -p -v --ignore __core-js_shared__",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doron2402/promise-waterfall.git"
+  },
+  "keywords": [
+    "promises",
+    "waterfall",
+    "waterfall-promise",
+    "promise-waterfall"
+  ],
+  "author": "Doron Segal <doron@segaldoron.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doron2402/promise-waterfall/issues"
+  },
+  "homepage": "https://github.com/doron2402/promise-waterfall#readme",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "eslint": "^3.13.1",
+    "eslint-config-hapi": "^10.0.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "lab": "^11.2.1",
+    "pre-commit": "^1.2.2"
+  }
+}
